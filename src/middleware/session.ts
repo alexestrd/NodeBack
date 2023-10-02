@@ -18,3 +18,4 @@ const checkJwt = (req:Request, res: Response, next: NextFunction) => {
         res.send("Sesión_No_Valida");
     }
 };
+export {checkJwt};

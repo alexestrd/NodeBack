@@ -1,15 +1,17 @@
+import { Points } from "./points.interface";
+
 export type Tipos = 'ligera' | 'media' | 'pesada'
 
 export interface Order{
     tipo: Tipos;
     descripcion: string;
-    ruuta: string;
+    ruta: Points;
     status: Status;
     truck: string;
 }
 
-enum Status {
-    inico,
+ export enum Status {
+    inicio,
     progreso,
     curso,
     finalizado
