@@ -21,9 +21,10 @@ const getRoute = async ({params}: Request, res: Response) => {
     } 
 }
 
-const postRoute = async ({body}: Request, res: Response) => {
+const postRoute = async ({params,body}: Request, res: Response) => {
     try {
-        const response =  await newroutes(body);
+        const {pointA,pointB} = body;
+        const response =  await newroutes(body, pointA, pointB);
         res.send(response);
     } catch (e) {
         handleHttp(res,"Error en la peticion",e)

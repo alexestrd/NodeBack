@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "651fb6187d121c8e13bc5137"
+  },
+  "tipo": "Ligera",
+  "descripcion": "esta es una prueba",
+  "ruta": {
+    "pickup": {
+      "lat": "-34.6177194",
+      "lng": "-58.3620561"
+    },
+    "dropoff": {
+      "lat": "-32.8568597",
+      "lng": "-68.8152362"
+    }
+  },
+  "status": 0,
+  "truck": "Peterbilt",
+  "createdAt": {
+    "$date": "2023-10-06T07:24:08.655Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T07:24:08.655Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "651fb72a7d121c8e13bc5140"
+  },
+  "tipo": "media",
+  "descripcion": "Segunda prueba",
+  "ruta": {
+    "pickup": {
+      "lat": "-32.8568597",
+      "lng": "-68.8152362"
+    },
+    "dropoff": {
+      "lat": "-34.6177194",
+      "lng": "-58.3620561"
+    }
+  },
+  "status": 1,
+  "truck": "International LT625",
+  "createdAt": {
+    "$date": "2023-10-06T07:28:42.887Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T07:28:42.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "651fb79d7d121c8e13bc5144"
+  },
+  "tipo": "pesada",
+  "descripcion": "Tercera Prueba",
+  "ruta": {
+    "pickup": {
+      "lat": "-23.1541711",
+      "lng": "-64.33377159999999"
+    },
+    "dropoff": {
+      "lat": "-34.6177194",
+      "lng": "-58.3620561"
+    }
+  },
+  "status": 3,
+  "truck": "Volvo VNL",
+  "createdAt": {
+    "$date": "2023-10-06T07:30:37.977Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T07:30:37.977Z"
+  }
+}]

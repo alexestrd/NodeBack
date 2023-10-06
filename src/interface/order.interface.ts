@@ -1,11 +1,11 @@
-import { Points } from "./points.interface";
+import {Ruta} from "./ruta.interface";
 
 export type Tipos = 'ligera' | 'media' | 'pesada'
 
 export interface Order{
     tipo: Tipos;
     descripcion: string;
-    ruta: Points;
+    ruta: Ruta;
     status: Status;
     truck: string;
 }

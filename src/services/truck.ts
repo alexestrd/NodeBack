@@ -11,4 +11,9 @@ const newtruck = async (data: Truck) => {
     return ResponseNewOrderr;
 };
 
-  export { gettrucks, newtruck};
+const gettruck = async (truck: string) => {
+  const model = truck;
+  const response = await TruckModel.findOne({model});
+  return response;
+};
+  export { gettrucks, newtruck, gettruck};
