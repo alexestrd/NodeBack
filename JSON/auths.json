@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "65188eab2e4df857d220b51a"
+  },
+  "email": "alex.treb.proyec@gmail.com",
+  "password": "$2a$08$fEgHpefPhsstFj/6JSokyOuwt4E1BBg9zPEWx7U.q31aiNoj1Gx5u",
+  "createdAt": {
+    "$date": "2023-09-30T21:10:03.510Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-30T21:10:03.510Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65188f3b2e4df857d220b51d"
+  },
+  "email": "alex.trab.proyec@gmail.com",
+  "password": "$2a$08$XEwcl4lUg39g/7uSe6bRPOMFi/owg4rWSN3INthZTE/Y/psKIlHvO",
+  "createdAt": {
+    "$date": "2023-09-30T21:12:27.429Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-30T21:12:27.429Z"
+  }
+}]

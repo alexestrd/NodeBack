@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "651f97dc6d9dbf61a47b68d5"
+  },
+  "name": "Hola",
+  "pointA": "ChIJ87xEQMoIfpYRKjWtKmr3JcA",
+  "pointB": "ChIJiQPXwtk0o5URj2cW455eew4",
+  "latA": "-32.8568597",
+  "lngA": "-68.8152362",
+  "latB": "-34.6177194",
+  "lngB": "-58.3620561",
+  "dist": "1,053 km",
+  "createdAt": {
+    "$date": "2023-10-06T05:15:08.364Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T05:15:08.364Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "651faa2d61217f75ba95a406"
+  },
+  "name": "Cristo-Camioneros-Arg",
+  "pointA": "ChIJ87xEQMoIfpYRKjWtKmr3JcA",
+  "pointB": "ChIJ3Y-ij4MjCpYRdyfBdtONwqc",
+  "latA": "-32.8568597",
+  "lngA": "-68.8152362",
+  "latB": "-39.0010843",
+  "lngB": "-67.8488781",
+  "dist": "806 km",
+  "createdAt": {
+    "$date": "2023-10-06T06:33:17.731Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T06:33:17.731Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "651fab5e61217f75ba95a408"
+  },
+  "name": "SanRamon-PuertoMadero-ARG",
+  "pointA": "ChIJ68vJGdf3D5QRnIjueC_Y0nw",
+  "pointB": "ChIJiQPXwtk0o5URj2cW455eew4",
+  "latA": "-23.1541711",
+  "lngA": "-64.33377159999999",
+  "latB": "-34.6177194",
+  "lngB": "-58.3620561",
+  "dist": "1,659 km",
+  "createdAt": {
+    "$date": "2023-10-06T06:38:22.219Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T06:38:22.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "651fabca61217f75ba95a40a"
+  },
+  "name": "PuertoMadero-CristoRedentor-ARG",
+  "pointA": "ChIJiQPXwtk0o5URj2cW455eew4",
+  "pointB": "ChIJ87xEQMoIfpYRKjWtKmr3JcA",
+  "latA": "-34.6177194",
+  "lngA": "-58.3620561",
+  "latB": "-32.8568597",
+  "lngB": "-68.8152362",
+  "dist": "1,054 km",
+  "createdAt": {
+    "$date": "2023-10-06T06:40:10.498Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-06T06:40:10.498Z"
+  }
+}]

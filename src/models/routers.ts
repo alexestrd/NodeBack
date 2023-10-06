@@ -14,6 +14,26 @@ const RoutesSchema = new Schema<Routes>(
         pointB:{
             required: true,
             type: String
+        },
+        latA: {
+            required: true,
+            type: String
+        },
+        lngA: {
+            required: true,
+            type: String
+        },
+        latB: {
+            required: true,
+            type: String
+        },
+        lngB: {
+            required: true,
+            type: String
+        },
+        dist: {
+            required: true,
+            type: String
         }
     },
     {

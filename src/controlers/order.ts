@@ -31,9 +31,12 @@ const putOrder = async ({params, body}: Request, res: Response) => {
     }
 }
 
-const postOrder = async ({body}: Request, res: Response) => {
+const postOrder = async (req: Request, res: Response) => {
     try {
-        const response =  await neworder(body);
+        const data = req.body 
+        const truck = data.truck;
+        const rute = data.ruta;
+        const response =  await neworder(data,truck, rute);
         res.send(response);
     } catch (e) {
         handleHttp(res,"Error en la peticion",e)

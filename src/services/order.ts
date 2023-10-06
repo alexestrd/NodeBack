@@ -1,8 +1,38 @@
 import { Order } from "../interface/order.interface";
+import { Ruta } from "../interface/ruta.interface";
 import OrderModel from "../models/order";
+import { getrouteO } from "../services/routes";
+import { gettruck} from "../services/truck"
 
-const neworder = async (data: Order) => {
-    const ResponseNewOrderr = await OrderModel.create(data);
+
+const neworder = async (data: any, truckD : string, rute : string) => {
+  const routeD: Ruta = {
+    pickup: {
+      lat: "", // Asigna valores iniciales si es necesario
+      lng: ""
+    },
+    dropoff: {
+      lat: "", // Asigna valores iniciales si es necesario
+      lng: ""
+    }
+  };
+    const truck = await gettruck(truckD);
+    if(!truck){ return "El camion no existe en la base de datos";}
+    const route = await getrouteO(rute);
+    if(route){
+      routeD.pickup.lat = route.latA;
+  routeD.pickup.lng = route.lngA;
+  routeD.dropoff.lat = route.latB;
+  routeD.dropoff.lng = route.lngB;
+    };
+    const newData:Order = {
+      tipo: data.tipo,
+      descripcion: data.descripcion,
+      ruta: routeD,
+      status: data.status,
+      truck: truckD
+    }
+    const ResponseNewOrderr = await OrderModel.create(newData);
     return ResponseNewOrderr;
 };
 
